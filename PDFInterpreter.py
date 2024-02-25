@@ -1,5 +1,6 @@
 import fitz  # pip install PyMuPDF
 
+# change the pdf path to your pdf's path
 pdf_path = '23-24strikerbot.pdf'
 
 pdf_document = fitz.open(pdf_path)
